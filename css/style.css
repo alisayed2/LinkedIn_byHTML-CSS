@@ -1,0 +1,609 @@
+/* start private lobrary */
+.clear
+{
+    clear: both;
+}
+
+/* end private lobrary */
+/* start body */
+body
+{
+    margin: 0;
+    background-color: #F3F2EF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* end body */
+/* start navigation bar */
+
+.nav-bar
+{
+    width: 90%;
+    height: 55px;
+    background-color: white;
+    padding: 0 6% 0 8% ;
+    position: fixed;
+    top: 0;
+}
+
+
+.nav-bar .linkedin-icon
+{
+    width: 3%;
+    height: 100%;
+    float: left;
+    margin-right: .8%;
+}
+.nav-bar .linkedin-icon img
+{
+    width:92%;
+    height: 70%;
+    padding: 20% 13% ;
+}
+
+.nav-bar .search
+{
+    width: 25%;
+    height: 70%;
+    float: left;
+    margin: .7% 11% 0 0;
+    border-radius: 5px;
+}
+
+
+.nav-bar .search input
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #EEF3F8;
+    border-radius: 5px;
+    background-color: #EEF3F8;
+    background-image: url('../icons/searchicon.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.nav-bar .search input:hover
+{
+    cursor:pointer
+}
+
+.nav-bar .links
+{
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+
+.nav-bar .links div 
+{
+    width: 13%;
+    height: 100%;
+    float : left;
+    opacity: .6;
+}
+
+
+.nav-bar .links div:hover
+{
+    border-bottom: black solid 3px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav-bar .links a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar .links a img
+{
+    width: 20px;
+    padding-left: 35px;
+    padding-top: 7.5px;
+}
+
+.nav-bar .links span
+{
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    text-transform: capitalize;
+}
+
+/* end navigation bar */
+
+/* start container */
+
+.container
+{
+    width: 84%;
+    margin: auto;
+}
+
+/* .container >div
+{
+    border-radius: 15px;
+} */
+
+.container .profile
+{
+    width: 20%;
+    float: left;
+    padding-top: 56px;
+}
+
+.container .profile .info
+{
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.container .profile .info .info-bg
+{
+    width: 100%;
+    height: 55px;
+    background-color: #A0B4B7;
+}
+
+.container .profile .info a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.container .profile .info img
+{
+    width: 70px;
+    border-radius: 50%;
+    border:white solid 2px;
+}
+.container .profile .info a span
+{
+    display: block;
+}
+
+.container .profile .info p
+{
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.container .profile .info hr
+{
+    color: #999;
+}
+
+.container .profile .info .viewed 
+{
+    text-align: left;
+}
+
+.container .profile .info .viewed div:hover
+{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+
+.container .profile .info .viewed a
+{
+    color:#999;
+    font-size:12px;
+    text-align: left;
+    width: 100%;
+    padding: 0 10px;
+}
+.container .profile .info .viewed div a span
+{
+    display: inline;
+    text-align: right;
+    color: #53AADC;
+}
+.container .profile .info .viewed div a p
+{
+    color: black;
+    text-align: left;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.container .profile .info .access 
+{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.container .profile .info .access:hover
+{
+    background-color:#EBEBEB ;
+    cursor: pointer;
+}
+.container .profile .info .access a
+{
+    color:#999 ;
+    font-size: 12px;
+}
+.container .profile .info .access a p
+{
+    color:black;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.container .recent
+{
+    font-size: 12px;
+    color:#999;
+    background-color: white;
+    padding-left: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius : 10px;
+}
+.container .recent p
+{
+    margin:5px 0 ;
+}
+.container .recent div:hover
+{
+    background-color:#EBEBEB;
+    cursor: pointer;
+}
+
+.container .recent div img
+{
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    opacity: .8;
+}
+
+.container .recent div a
+{
+    text-decoration: none;
+    color:#999;
+}
+
+.container .recent a
+{
+    text-decoration: none;
+    color:#53AADC ;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+
+.container .recent div:last-of-type
+{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.container .time-line
+{
+    width: 45%;
+    float: left;
+    margin:0 2.5%;
+}
+
+.container .time-line .create-post
+{
+    width: 100%;
+    height: 115px;
+    background-color: white;
+    border: #EBEBEB solid 1px;
+    border-radius: 10px;
+}
+
+.container .time-line .create-post .create
+{
+    width: 96%;
+    height: 45px;
+    padding : 10px;
+}
+
+
+.container .time-line .create-post .create img
+{
+    width:50px;
+    border-radius: 50%;
+}
+
+.container .time-line .create-post .create input
+{
+    width: 88%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 15px;
+    background-color:white;
+    padding-top: 40px;
+}
+.container .time-line .create-post .create input:hover
+{
+    background-color: #EEF3F8;
+    cursor: pointer;
+}
+
+.container .time-line .create-post .upload
+{
+    padding : 0 10px;
+    height: 45px;
+}
+
+.container .time-line .create-post .upload div
+{
+    float: left;
+    width: 17%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.container .time-line .create-post .upload div a
+{
+    color:#999;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.container .time-line .create-post .upload div a img
+{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.container .time-line .create-post .upload div a span
+
+{
+    padding-top: 10px;
+}
+.container .time-line .create-post .upload div:hover
+{
+    background-color:#EBEBEB;
+    cursor: pointer;
+}
+
+.container .time-line .sort
+{
+    width: 100%;
+    height: 10px;
+    padding: 10px 0 20px 0 ;
+}
+
+.container .time-line .sort hr
+{
+    width: 375px;
+    display: inline-block;
+}
+.container .time-line .sort span
+{
+    color: #222;
+    font-size: 18px;
+    display: inline;
+}
+.container .time-line .sort ul 
+{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+}
+
+.container .time-line .sort ul li
+{
+    display: inline-block;
+}
+
+
+.container .time-line .sort ul a
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+}
+
+.container .time-line .post
+{
+    width: 97%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container .time-line .post .prof:hover
+{
+    cursor: pointer;
+}
+
+.container .time-line .post .prof a
+{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container .time-line .post .prof span
+{
+    color:#999;
+    font-size: 12px;
+}
+
+.container .time-line .post .prof a:hover
+{
+    color:#53AADC ;
+    text-decoration: underline;
+}
+
+.container .time-line .post .prof img
+{
+    width:50px;
+    border-radius: 50%;
+}
+
+.container .time-line .post .post-content p
+{
+    direction: rtl;
+    color: #333;
+    font-size: 20px;
+}
+
+.container .time-line .post .post-content img
+{
+    width: 100%;
+}
+
+.container .time-line .post .reacts
+{
+    height: 30px;
+}
+
+.container .time-line .post .reacts div
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+.container .time-line .post .reacts div:hover
+{
+    cursor: pointer;
+    background-color:#EBEBEB ;
+}
+
+.container .time-line .post .reacts div img
+{
+    width: 25px;
+    padding-right: 5px;
+}
+.container .time-line .post .reacts div span
+{
+    text-transform: capitalize;
+}
+
+.container .feed
+{
+    width: 28%;
+    float: left;
+
+}
+
+.container .feed .f
+{
+    height: 430px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container .feed .f:hover
+{
+    cursor:pointer
+}
+
+.container .feed .add:hover
+{
+    cursor: auto;
+}
+
+.container .feed .add span
+{
+    color: rgb(94, 84, 84);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.container .feed .add img
+{
+    float: right;
+}
+.container .feed .suggestions a 
+{
+    text-decoration: none;
+    color: #999;
+    font-size: 15px;
+}
+.container .feed .suggestions img
+{
+    width:50px;
+    border-radius: 50%;
+}
+
+.container .feed .f p
+{
+    color: #999;
+    border-radius: 30px;
+    border: #333 solid 1px ;
+    text-align: center;
+}
+.container .feed .f p:hover
+{
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.container .feed .f .all
+{
+    width: 75%;
+    height: 30px;
+    padding-top: 10px;
+}
+.container .feed .f .all:hover
+{
+    background-color:#EBEBEB ;
+    cursor: pointer;
+}
+.container .feed .f .all a
+{
+    text-decoration: none;
+    color: #999;
+}
+
+.container .feed .feed-footer
+{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 20px;
+}
+
+.container .feed .feed-footer a
+{
+    text-decoration: none;
+    color: #999;
+    padding: 5px;
+    font-size: 15px;
+}
+.container .feed .feed-footer a:hover
+{
+    color: #53AADC;
+    text-decoration: underline;
+}
+
+.container .feed .feed-footer p
+{
+    font-size: 12px;
+    color :rgb(94, 84, 84);
+    text-transform: capitalize;
+}
+
+.container .feed .feed-footer p span:first-child
+{
+    color:#0A66C2;
+    font-weight: bold;
+    font-size: 14px;
+}
+.container .feed .feed-footer p span:last-of-type
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color:#0A66C2 ;
+}
+
+
+/* end container */
